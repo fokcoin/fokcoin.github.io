@@ -3,7 +3,6 @@ const WebpackDevServer = require('webpack-dev-server');
 const config = require('./webpack.config');
 
 const server = new WebpackDevServer(webpack(config), {
-  contentBase: __dirname + '/app',
   noInfo: true,
   hot: true
 });
