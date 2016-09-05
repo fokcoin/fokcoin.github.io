@@ -1,0 +1,21 @@
+{
+  "name": "flipcoin",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/junkycoder/flipcoin.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/junkycoder/flipcoin/issues"
+  },
+  "homepage": "https://github.com/junkycoder/flipcoin#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
